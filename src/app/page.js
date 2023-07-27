@@ -1,10 +1,11 @@
 
+import HeroSection from './components/HeroSection';
 import styles from './page.module.css'
 
 const Home = () => {
   return (
     <main>
-      <h1>Home</h1>
+      <HeroSection title={"LET\'S WATCH MOVIE TOGETHER"} imageUrl={"/home.svg"} />
     </main>
   )
 }
